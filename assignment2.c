@@ -39,7 +39,7 @@ int main(){
         waitpid(proc2, &procStatus2,  0);
 
         if (WIFEXITED(procStatus2))
-            printf("The second child exited with status of %d\n", WEXITSTATUS(procStatus2));
+            printf("The second child exited with status = %d\n", WEXITSTATUS(procStatus2));
         else 
             puts("child did not exit successfully");
     }

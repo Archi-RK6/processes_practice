@@ -23,5 +23,5 @@ int main(){
         fprintf(stderr, "atexit() failed!\n");
     }
     printf("Hello!\n");
-    return 0;
+    exit(0);
 }
